@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+/* Apply Tailwind CSS base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    /* background: linear-gradient(135deg, #1a0128, #0d011a); */
+    /* background: linear-gradient(135deg, rgb(11, 7, 21), rgb(25, 1, 39)); */
+    /* background: linear-gradient(to right, #210138, #0f0326, #321737); */
+    /* background: linear-gradient(90deg, #1e011d, #E0B0FF); */
+    /* background: #100224; */
+
+        /* background-color: #160a33; */
+        /* background-image: url("./assets/back.jpg"); */
+        background-image: url("./assets/back.jpg");
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      
+        /* background-color: #0f0621; */
+      
+        font-family: "Montserrat", sans-serif;
+      
+
+
+}
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #160a33;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #BEBAE0;
+    border-radius: 4%;
+}
+
